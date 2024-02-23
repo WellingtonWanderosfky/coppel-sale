@@ -19,6 +19,15 @@
 body {
 }
 
+.swiper-button-next::after{
+  content: url(https://tottoco.vtexassets.com/_v/public/assets/v1/published/tottoco.common@0.1.53/public/react/224fd188404bc434840d3bfc1b72f1a9.svg) !important;
+}
+
+
+.swiper-button-prev::after{
+  content: url(https://tottoco.vtexassets.com/_v/public/assets/v1/published/tottoco.common@0.1.53/public/react/19470dfd718142ac6883dd0c23bf9ddb.svg) !important;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
